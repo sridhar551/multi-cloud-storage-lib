@@ -1,0 +1,42 @@
+{
+  "name": "multi-cloud-storage-lib",
+  "version": "1.0.2",
+  "description": "A unified interface for AWS S3, Azure Blob Storage, and Google Cloud Storage with factory pattern support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "azure",
+    "blob",
+    "storage",
+    "gcp",
+    "google-cloud-storage",
+    "cloud-storage",
+    "storage-factory",
+    "multi-cloud"
+  ],
+  "author": "sridhar.tanda260@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "@azure/storage-blob": "^12.0.0",
+    "@google-cloud/storage": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}
